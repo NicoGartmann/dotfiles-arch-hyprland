@@ -16,6 +16,6 @@
   - [ ] nvim-tmux-navigator plugin
   - [ ] telescope plugin
   - [ ] treesitter plugin
-- [ ] Add hyprland configuration  
+- [X] Add hyprland configuration  
 - [ ] Add waybar configuration  
 
