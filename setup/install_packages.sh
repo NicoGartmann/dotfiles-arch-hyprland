@@ -11,6 +11,11 @@ SYSTEM_PACKAGES=(
   alacritty
   waybar
   wofi
+  pulseaudio
+  spotify-launcher
+  pavucontrol
+  swaylock
+  stalonetray
 )
 
 # CLI packages
@@ -31,6 +36,7 @@ CLI_PACKAGES=(
 
 YAY_PACKAGES=(
   lazydocker
+  wlogout
 )
 
 sudo pacman --noconfirm -S "${SYSTEM_PACKAGES[@]}" "${CLI_PACKAGES[@]}"
