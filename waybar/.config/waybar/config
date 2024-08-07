@@ -5,7 +5,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["pulseaudio", "clock", "network", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -30,24 +30,18 @@
     "clock": {
         "timezone": "Europe/Berlin",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": " {:%d/%m/%Y}",
-        "format": " {:%H:%M}"
+        "format-alt": " {:%d/%m/%Y}",
+        "format": " {:%H:%M}"
     },
-    "backlight": {
-        "device": "intel_backlight",
-        "format": "{icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
-    "battery": {
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{icon}",
-        "format-charging": "",
-        "format-plugged": "",
-        "format-alt": "{icon}",
-        "format-icons": ["", "",  "", "", "", "", "", "", "", "", "", ""]
+    "network": {
+      "interface": "wlan0",
+      "format-wifi": "{essid} ",
+      "format-disconnected": "󰤫", //An empty format will hide the module.
+      "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+      "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+      "tooltip-format-ethernet": "{ifname} ",
+      "tooltip-format-disconnected": "Disconnected",
+      "max-length": 50
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
@@ -66,6 +60,6 @@
     "custom/power": {
         "tooltip": false,
         "on-click": "wlogout &",
-        "format": "襤"
+        "format": "󰍃"
     }
 }
