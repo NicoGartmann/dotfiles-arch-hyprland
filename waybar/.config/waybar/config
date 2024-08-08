@@ -5,7 +5,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["pulseaudio", "clock", "network", "custom/lock", "custom/power"],
+    "modules-right": ["pulseaudio", "clock", "network", "bluetooth", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -43,6 +43,11 @@
       "tooltip-format-disconnected": "Disconnected",
       "max-length": 50
     },
+    "bluetooth": {
+      "format-on": "󰂯",
+      "format-connected": "󰂱",
+      "format-off": "󰂲"
+    },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
@@ -54,7 +59,7 @@
     },
     "custom/lock": {
         "tooltip": false,
-        "on-click": "sh -c '(sleep 0.5s; swaylock --grace 0)' & disown",
+        "on-click": "sh -c '(sleep 0.5s; swaylock --config $HOME/.config/swaylock/mocha.conf --indicator --clock)' & disown",
         "format": "",
     },
     "custom/power": {

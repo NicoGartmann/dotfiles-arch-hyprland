@@ -36,50 +36,24 @@
 }
 
 #custom-music,
-#tray,
-#backlight,
 #clock,
-#battery,
 #pulseaudio,
 #custom-lock,
 #custom-power,
-#network {
+#network,
+#bluetooth {
   background-color: @surface0;
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }
 
+#bluetooth {
+  color: @blue;
+  border-radius: 1px 0rem 0rem 1px;
+  margin-right: 1rem;
+}
+
 #network {
-  color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
-}
-
-#network.disabled {
-  color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
-}
-
-#network.disconnected {
-  color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
-}
-
-#network.linked {
-  color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
-}
-
-#network.ethernet {
-  color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
-}
-
-#network.wifi {
   color: @blue;
   border-radius: 0px 1rem 1rem 0px;
   margin-right: 1rem;
@@ -89,26 +63,6 @@
   color: @blue;
   border-radius: 0px 1rem 1rem 0px;
   margin-right: 1rem;
-}
-
-#battery {
-  color: @green;
-}
-
-#battery.charging {
-  color: @green;
-}
-
-#battery.warning:not(.charging) {
-  color: @red;
-}
-
-#backlight {
-  color: @yellow;
-}
-
-#backlight, #battery {
-    border-radius: 0;
 }
 
 #pulseaudio {
@@ -133,7 +87,3 @@
     color: @red;
 }
 
-#tray {
-  margin-right: 1rem;
-  border-radius: 1rem;
-}
