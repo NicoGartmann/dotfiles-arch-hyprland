@@ -14,7 +14,6 @@ SYSTEM_PACKAGES=(
   pulseaudio
   spotify-launcher
   pavucontrol
-  swaylock
   stalonetray
 )
 
@@ -37,6 +36,7 @@ CLI_PACKAGES=(
 YAY_PACKAGES=(
   lazydocker
   wlogout
+  swaylock-effects
 )
 
 sudo pacman --noconfirm -S "${SYSTEM_PACKAGES[@]}" "${CLI_PACKAGES[@]}"
