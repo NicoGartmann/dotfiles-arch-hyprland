@@ -10,11 +10,11 @@ SYSTEM_PACKAGES=(
   helm
   alacritty
   waybar
-  wofi
   pulseaudio
   spotify-launcher
   pavucontrol
   stalonetray
+  rofi-wayland
 )
 
 # CLI packages
