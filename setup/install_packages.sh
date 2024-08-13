@@ -28,17 +28,16 @@ SYSTEM_PACKAGES=(
   lazygit
   docker
   docker-compose
-  dunst
   pipewire
   stow
   pango
   swaync
+  ripgrep
 )
 
 YAY_PACKAGES=(
   lazydocker
   wlogout
-  swaylock-effects
 )
 
 sudo pacman --noconfirm -S "${SYSTEM_PACKAGES[@]}"
