@@ -9,13 +9,13 @@
 - [X] Add kitty configuration  
 - [X] Add nvim configuration
   - [X] neo-tree plugin 
-  - [ ] catppuccin plugin
+  - [X] catppuccin plugin
   - [ ] git-signs plugin
-  - [ ] lazydocker plugin
+  - [X] lazydocker plugin
   - [ ] lazygit plugin
   - [ ] nvim-tmux-navigator plugin
   - [ ] telescope plugin
   - [ ] treesitter plugin
 - [X] Add hyprland configuration  
-- [ ] Add waybar configuration  
+- [X] Add waybar configuration  
 
