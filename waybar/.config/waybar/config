@@ -59,7 +59,7 @@
     },
     "custom/lock": {
         "tooltip": false,
-        "on-click": "sh -c '(sleep 0.5s; swaylock --config $HOME/.config/swaylock/mocha.conf --indicator --clock)' & disown",
+        "on-click": "sh -c '(sleep 0.5s; hyprlock --config $HOME/.config/hyprlock/hyprlock.conf)' & disown",
         "format": "",
     },
     "custom/power": {
