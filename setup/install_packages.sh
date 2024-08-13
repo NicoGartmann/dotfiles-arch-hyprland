@@ -31,6 +31,8 @@ SYSTEM_PACKAGES=(
   dunst
   pipewire
   stow
+  pango
+  swaync
 )
 
 YAY_PACKAGES=(
