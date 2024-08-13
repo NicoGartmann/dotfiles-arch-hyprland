@@ -15,10 +15,7 @@ SYSTEM_PACKAGES=(
   pavucontrol
   stalonetray
   rofi-wayland
-)
-
-# CLI packages
-CLI_PACKAGES=(
+  hyprpaper
   bat
   zoxide
   fzf
@@ -31,6 +28,8 @@ CLI_PACKAGES=(
   lazygit
   docker
   docker-compose
+  dunst
+  pipewire
 )
 
 YAY_PACKAGES=(
@@ -39,5 +38,5 @@ YAY_PACKAGES=(
   swaylock-effects
 )
 
-sudo pacman --noconfirm -S "${SYSTEM_PACKAGES[@]}" "${CLI_PACKAGES[@]}"
+sudo pacman --noconfirm -S "${SYSTEM_PACKAGES[@]}"
 yay --noconfirm -S "${YAY_PACKAGES[@]}"
