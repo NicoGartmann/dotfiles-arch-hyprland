@@ -30,6 +30,7 @@ SYSTEM_PACKAGES=(
   docker-compose
   dunst
   pipewire
+  stow
 )
 
 YAY_PACKAGES=(
