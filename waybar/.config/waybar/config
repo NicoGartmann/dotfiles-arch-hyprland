@@ -5,7 +5,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["pulseaudio", "clock", "network", "bluetooth", "custom/lock", "custom/power"],
+    "modules-right": ["wireplumber", "clock", "network", "bluetooth", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -48,7 +48,7 @@
       "format-connected": "󰂱",
       "format-off": "󰂲"
     },
-    "pulseaudio": {
+    "wireplumber": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
         "format-muted": "",
