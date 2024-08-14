@@ -33,6 +33,10 @@ SYSTEM_PACKAGES=(
   pango
   swaync
   ripgrep
+  wireplumber
+  obs-studio
+  xdg-desktop-portal-hyprland
+  qt6-wayland
 )
 
 YAY_PACKAGES=(
