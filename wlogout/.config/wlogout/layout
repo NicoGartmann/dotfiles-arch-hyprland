@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock --config $HOME/.config/swaylock/mocha.conf --indicator --clock",
+    "action" : "hyprlock --config $HOME/.config/hyprlock/hyprlock.conf",
     "text" : "Lock",
     "keybind" : "l"
 }
