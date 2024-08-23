@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 # System packages
 SYSTEM_PACKAGES=(
@@ -8,9 +8,7 @@ SYSTEM_PACKAGES=(
   kubectx
   terraform
   helm
-  alacritty
   waybar
-  pulseaudio
   spotify-launcher
   pavucontrol
   stalonetray
@@ -37,11 +35,15 @@ SYSTEM_PACKAGES=(
   obs-studio
   xdg-desktop-portal-hyprland
   qt6-wayland
+  ttf-meslo-nerd
+  zsh
+  less
 )
 
 YAY_PACKAGES=(
   lazydocker
   wlogout
+  oh-my-posh
 )
 
 sudo pacman --noconfirm -S "${SYSTEM_PACKAGES[@]}"
