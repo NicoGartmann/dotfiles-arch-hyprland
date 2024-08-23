@@ -38,6 +38,7 @@ SYSTEM_PACKAGES=(
   ttf-meslo-nerd
   zsh
   less
+  hyprlock
 )
 
 YAY_PACKAGES=(
