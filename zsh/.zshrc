@@ -19,7 +19,7 @@ source <(kubectl completion zsh)
 source <(helm completion zsh)
 
 # Keybindings
-bindkey -e
+bindkey -v
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 
