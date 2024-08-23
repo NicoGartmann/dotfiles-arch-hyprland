@@ -35,7 +35,7 @@
     },
     "network": {
       "interface": "wlan0",
-      "format-wifi": "{essid} ",
+      "format-wifi": "",
       "format-disconnected": "󰤫", //An empty format will hide the module.
       "tooltip-format": "{ifname} via {gwaddr} 󰊗",
       "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
