@@ -33,7 +33,6 @@ SYSTEM_PACKAGES=(
   ripgrep
   wireplumber
   obs-studio
-  xdg-desktop-portal-hyprland
   qt6-wayland
   ttf-meslo-nerd
   zsh
@@ -47,6 +46,7 @@ YAY_PACKAGES=(
   lazydocker
   wlogout
   oh-my-posh
+  xdg-desktop-portal-hyprland-git
 )
 
 sudo pacman --noconfirm -S "${SYSTEM_PACKAGES[@]}"
