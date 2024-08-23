@@ -39,6 +39,8 @@ SYSTEM_PACKAGES=(
   zsh
   less
   hyprlock
+  bluez
+  bluez-utils
 )
 
 YAY_PACKAGES=(
