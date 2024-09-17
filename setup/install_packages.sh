@@ -40,6 +40,7 @@ SYSTEM_PACKAGES=(
   hyprlock
   bluez
   bluez-utils
+  copyq
 )
 
 YAY_PACKAGES=(
