@@ -5,7 +5,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["wireplumber", "clock", "network", "bluetooth", "custom/lock", "custom/power"],
+    "modules-right": ["wireplumber", "clock", "battery", "network", "bluetooth", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -14,10 +14,6 @@
              "default": "",
          },
      },
-    "tray": {
-        "icon-size": 21,
-        "spacing": 10
-    },
     "custom/music": {
         "format": "  {}",
         "escape": true,
@@ -32,6 +28,17 @@
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": " {:%d/%m/%Y}",
         "format": " {:%H:%M}"
+    },
+    "battery": {
+        "bat": "BAT1",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
     },
     "network": {
       "interface": "wlan0",

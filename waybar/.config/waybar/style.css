@@ -41,22 +41,27 @@
 #custom-lock,
 #custom-power,
 #network,
-#bluetooth {
+#bluetooth, 
+#battery {
   background-color: @surface0;
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }
 
+#battery {
+  color: @blue; 
+  border-radius: 1rem 0px 0px 1rem;
+} 
+
 #bluetooth {
   color: @blue;
-  border-radius: 1px 0rem 0rem 1px;
+  border-radius: 0px 1rem 1rem 0px;
   margin-right: 1rem;
 }
 
 #network {
   color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
+  border-radius: 1px 0rem 0rem 0px;
 }
 
 #clock {
