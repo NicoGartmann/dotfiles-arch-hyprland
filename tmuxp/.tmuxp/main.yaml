@@ -1,0 +1,7 @@
+session_name: main
+start_directory: ${HOME}
+windows:
+  - window_name: main
+    panes: 
+      - neofetch
+
