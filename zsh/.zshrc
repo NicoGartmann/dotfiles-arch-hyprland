@@ -60,8 +60,7 @@ eval "$(thefuck --alias)"
 eval "$(oh-my-posh init zsh --config /home/nico/.config/oh-my-posh/catppuccin_mocha.omp.json)"
 
 # Start TMUX
-#if [[ -z "$TMUX" ]]; then
-#  (sleep 0.1 && (tmux attach -t main || tmux new-session -t main))
-#fi
-
+if [ -z $TMUX ]; then
+  tmuxp load main -y
+fi
 
