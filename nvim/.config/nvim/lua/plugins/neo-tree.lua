@@ -7,7 +7,7 @@ return {
     "MunifTanjim/nui.nvim",
     "3rd/image.nvim",
   },
-  config = function() 
+  config = function()
     require("neo-tree").setup({
       use_libuv_file_watcher = true,
       close_if_last_window = true,
@@ -21,5 +21,6 @@ return {
         },
       },
     })
-  end
+    vim.keymap.set("n", "<leader>t", ":Neotree toggle<CR>", {})
+  end,
 }
