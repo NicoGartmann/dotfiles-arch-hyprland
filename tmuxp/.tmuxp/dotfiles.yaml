@@ -2,8 +2,7 @@ session_name: dotfiles
 start_directory: ${HOME}/dotfiles-arch-hyprland
 windows:
   - window_name: nvim
-    panes: 
-    - shell_command:
-      - cmd: nvim
-
+    panes:
+      - shell_command:
+          - cmd: nvim
 
