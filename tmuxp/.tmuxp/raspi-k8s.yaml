@@ -1,0 +1,15 @@
+session_name: raspi-k8s
+start_directory: ${HOME}/projects/raspbi-k8s
+windows:
+  - window_name: nvim
+    panes:
+      - shell_command:
+          - cmd: nvim
+  - window_name: terraform
+    panes:
+      - shell_command:
+          - cmd: terraform init -upgrade
+  - window_name: k9s
+    panes:
+      - shell_command:
+          - cmd: k9s
