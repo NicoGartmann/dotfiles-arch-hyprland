@@ -49,9 +49,17 @@
 }
 
 #battery {
-  color: @blue; 
+  color: @green; 
   border-radius: 1rem 0px 0px 1rem;
 } 
+
+#battery.warning {
+  color: @yellow; 
+}
+
+#battery.critical {
+  color: @red; 
+}
 
 #bluetooth {
   color: @blue;
