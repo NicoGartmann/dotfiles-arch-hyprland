@@ -64,3 +64,4 @@ if [ -z $TMUX ]; then
   tmuxp load main -y
 fi
 
+source /usr/share/nvm/init-nvm.sh
