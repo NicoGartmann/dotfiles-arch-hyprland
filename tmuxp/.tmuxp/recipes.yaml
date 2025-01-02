@@ -1,0 +1,8 @@
+
+session_name: recipes
+start_directory: ${HOME}/projects/recipes
+windows:
+  - window_name: nvim
+    panes:
+      - shell_command:
+          - cmd: nvim
