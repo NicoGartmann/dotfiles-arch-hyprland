@@ -1,0 +1,11 @@
+session_name: as-torservice
+start_directory: ${HOME}/projects/as-torservice
+windows:
+  - window_name: nvim
+    panes:
+      - shell_command:
+          - cmd: nvim
+  - window_name: client
+    panes:
+      - shell_command:
+          - cmd: nvm use 20.9.0 && npm install && npm run dev
